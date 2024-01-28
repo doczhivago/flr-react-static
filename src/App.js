@@ -1,8 +1,10 @@
 import React from 'react';
+import Header from './Header';
 
 function App() {
   const value = 'World';
-  return <div>Hello {value}</div>;
+  
+  return <div><Header></Header></div>;
 }
 
 export default App;
