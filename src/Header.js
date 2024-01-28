@@ -1,9 +1,10 @@
-import logURL from "./logo.svg";
+const logoURL = "./logo.svg";
 
-const Header = () => (
-    <div className="header">
-        <img src = {logURL} alt = "FLR"/>
+function Header() {
+    <div>
+        <img src={logoURL} alt="FLR" />
     </div>
-)
+}
+
 
 export default Header;
