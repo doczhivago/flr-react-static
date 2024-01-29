@@ -1,0 +1,12 @@
+.intro {
+  margin: 0 auto;
+  background-color: #c7f4c5;
+  height: 90vh;
+}
+.intro h1 {
+  font-family: 'RobotoNormal';
+  font-weight: 100;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 3px;
+}

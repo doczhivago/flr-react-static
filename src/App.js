@@ -1,8 +1,16 @@
 import React from 'react';
+import Header from './components/Header/Header';
+import Intro from './containers/Intro';
 
-function App() {
-  const value = 'World';
-  return <div>Hi {value}</div>;
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+          <Header />   
+          <Intro /> 
+        </div>
+    )
+  }
 }
 
 export default App;
