@@ -8,6 +8,7 @@ class App extends React.Component {
       <div className="App">
           <Header />   
           <Intro /> 
+          <a href="./landing.html">Landing</a>
         </div>
     )
   }
