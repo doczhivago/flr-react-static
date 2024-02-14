@@ -1,5 +1,17 @@
 .header {
     padding: 25px 0;
     text-align: center;
-    background: #222;
   }
+
+  .siteheader {
+    font-size: 2em;
+    font-family: 'RobotoNormal';
+    font-weight: 100;
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+  }
+
+body {
+  background-color:#c7f4c5;
+}

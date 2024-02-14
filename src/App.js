@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Intro from './containers/Intro';
+import Main from './containers/Main';
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,8 @@ class App extends React.Component {
       <div className="App">
           <Header />   
           <Intro /> 
+          <Main />
+          <a href="./landing.html">Landing</a>
         </div>
     )
   }

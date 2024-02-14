@@ -1,10 +1,10 @@
 import React from 'react'
-import './Header.css'
+//import './Header.css'
 
 const title = 'Q\'s Cups'
 
 const Header = () => (
-    <div className="header">{title}</div>
+    <div className="siteheader">{title}</div>
 )
 
 export default Header;
