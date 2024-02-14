@@ -1,12 +1,22 @@
 .intro {
   margin: 0 auto;
   background-color: #c7f4c5;
-  height: 90vh;
+  display: flex;
 }
-.intro h1 {
+
+
+.introTitle {
   font-family: 'RobotoNormal';
   font-weight: 100;
-  font-size: 38px;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.introDescription {
+  font-family: 'RobotoNormal';
+  font-weight: 100;
+  font-size: 24px;
   text-align: center;
   letter-spacing: 3px;
 }
